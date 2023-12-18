@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon__wrapper {
+    @apply border border-gray-400 rounded-full w-[35px] h-[35px] grid place-items-center text-[18px];
+  }
+  .feature_btn{
+    @apply bg-accent text-white px-4 py-1 rounded-full hover:bg-accentDark
+  }
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
